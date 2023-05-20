@@ -1,0 +1,144 @@
+
+
+@font-face {
+    font-family: terminalFont;
+    src: url(clacon2.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color : yellow;
+    font-family: terminalFont;
+    text-align: center;
+    margin: auto;
+
+  }
+.firsthalf{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.75)),url(det.jpg); 
+    background-size: cover;   
+    background-position: center;
+
+
+
+    
+
+}
+.secondhalf{
+    background-color: black;
+    width: 100%;
+    height: 2500px;
+}
+
+
+.infobox {
+    color: yellow;
+    border-radius: 15px;
+    background: #eff1ec;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+
+    transform: translate(0, 100px);
+}
+
+.infobox h1 {
+    font-size: 50px;
+
+
+}
+
+.infobox p {
+    color: white;
+    font-size: 23px;
+    transform: translate(0, 20px)
+}
+
+
+
+.team {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    transform: translate(0, 1060px)
+}
+
+
+.team h1 {
+    transform: translate(0, 50px);
+}
+
+.team .yashname{
+    font-size: 45px;
+    transform: translate(0, 120px);
+}
+
+ .team .yashpic {
+    transform: translate(0, 100px);
+}
+
+.team .yashdesc {
+    font-size: 20px;
+    color:white;
+    transform: translate(0, 130px);
+}
+
+.team .jdpic {
+    width: 15%;
+    transform: translate(0, 160px);
+}
+
+.team .jdname {
+    font-size: 45px;
+    transform: translate(0, 175px);
+}
+
+.team .jddesc {
+    font-size: 20px;
+    color:white;
+    transform: translate(0, 195px);
+
+}
+    
+
+
+
+
+
+
+
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content h1{
+    text-align: center;
+    color:white;
+
+    font-size: 80px;
+}
+.content p{
+    text-align: center;
+    color:white;
+
+    font-size: 25px;
+    background: none;
+}
+
+.content button{
+    color:black;
+    padding: 15px 32px;
+    font-size: 30px;
+    transform: translate(0px, 20px);
+}
